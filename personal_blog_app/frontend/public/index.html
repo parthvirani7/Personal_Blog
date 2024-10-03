@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Personal Blog</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #f9f9f9;
+        color: #333;
+        line-height: 1.6;
+      }
+
+      header {
+        background-color: #343a40;
+        padding: 20px 0;
+        text-align: center;
+        color: white;
+      }
+
+      header h1 {
+        font-size: 3rem;
+        font-weight: 600;
+        margin-bottom: 10px;
+      }
+
+      header p {
+        font-size: 1.2rem;
+        font-weight: 300;
+      }
+
+      nav {
+        margin-top: 20px;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+        margin: 0 15px;
+        font-size: 1.1rem;
+      }
+
+      nav a:hover {
+        color: #f9a826;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 0 20px;
+      }
+
+      .post {
+        background: white;
+        margin-bottom: 20px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        transition: box-shadow 0.3s ease;
+      }
+
+      .post:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+      }
+
+      .post h2 {
+        font-size: 2rem;
+        color: #343a40;
+        margin-bottom: 10px;
+      }
+
+      .post p {
+        font-size: 1.1rem;
+        color: #555;
+      }
+
+      .post .date {
+        font-size: 0.9rem;
+        color: #888;
+        margin-bottom: 15px;
+      }
+
+      footer {
+        text-align: center;
+        padding: 20px 0;
+        background-color: #343a40;
+        color: white;
+      }
+
+      footer p {
+        font-size: 1rem;
+      }
+
+      footer a {
+        color: #f9a826;
+        text-decoration: none;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Personal Blog</h1>
+      <p>Sharing thoughts, stories, and tutorials with the world</p>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="post">
+        <h2>My Journey as a Developer</h2>
+        <p class="date">Published on: October 4, 2024</p>
+        <p>
+          Becoming a developer is a journey filled with challenges and rewards. In this post, I share how I started, the struggles I faced, and the immense joy of problem-solving through code.
+        </p>
+      </div>
+
+      <div class="post">
+        <h2>Understanding React State Management</h2>
+        <p class="date">Published on: September 25, 2024</p>
+        <p>
+          React has a powerful yet straightforward way to manage state in an application. In this article, I walk through the various state management techniques you can implement in your projects.
+        </p>
+      </div>
+
+      <div class="post">
+        <h2>Mastering CSS Flexbox</h2>
+        <p class="date">Published on: September 12, 2024</p>
+        <p>
+          Flexbox is one of the most versatile and easy-to-learn layout models in CSS. Learn how to harness its power to build responsive layouts with ease in this post.
+        </p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>Personal Blog &copy; 2024. All rights reserved. <a href="#">Privacy Policy</a></p>
+    </footer>
+  </body>
+</html>
